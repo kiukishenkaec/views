@@ -1,0 +1,27 @@
+{
+    "name": "kiukishenkaec/views",
+    "description": "Стартовый набор views файлов",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Кондров Виталий",
+            "email": "kiukishenkaec@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kiukishenkaec\\Views\\": "src",
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kiukishenkaec\\Views\\Providers\\ViewsServiceProvider"
+            ]
+        }
+    }
+}
